@@ -85,7 +85,7 @@ while True:
     fps = 1/(current_time-previous_time) # Calculating Frames per second rate
     previous_time = current_time
 
-    cv.putText(img, f'FPS: {int(fps)}', (10,30), cv.FONT_HERSHEY_PLAIN, 1, (255,0,0), 2)
+    cv.putText(img, f'FPS: {int(fps)}', (10,30), cv.FONT_HERSHEY_PLAIN, 1, (255,0,0), 2) # Displays frames per second
 
     cv.imshow('Image', img)
     cv.waitKey(1)
