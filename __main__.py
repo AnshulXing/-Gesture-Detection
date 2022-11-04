@@ -87,5 +87,5 @@ while True:
 
     cv.putText(img, f'FPS: {int(fps)}', (10,30), cv.FONT_HERSHEY_PLAIN, 1, (255,0,0), 2) # Displays frames per second
 
-    cv.imshow('Image', img)
+    cv.imshow('Image', img) #Displaying image
     cv.waitKey(1)
